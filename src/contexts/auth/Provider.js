@@ -21,6 +21,8 @@ export default function Provider({ children }) {
   }, [isLoggedIn, user]);
 
   return (
+    //  З  authContext рендеримо функцію Provider і передаємо
+    // функцію {providerValue}
     <authContext.Provider value={providerValue}>
       {children}
     </authContext.Provider>

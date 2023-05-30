@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+// це провайдер авторизації
 import AuthProvider from './contexts/auth/Provider';
 import 'modern-normalize/modern-normalize.css';
 import './index.css';

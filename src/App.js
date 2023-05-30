@@ -14,7 +14,7 @@ const colorPickerOptions = [
   { label: 'pink', color: '#E91E63' },
   { label: 'indigo', color: '#3F51B5' },
 ];
-
+//  це стилі для розміщення 
 const containerStyles = {
   maxWidth: 1170,
   marginLeft: 'auto',
@@ -26,9 +26,11 @@ const containerStyles = {
 export default function App() {
   return (
     <div style={containerStyles}>
+      {/* це компонент шапка */}
       <AppBar />
-
+        {/* це приклад маршрутизації */}
       <Switch>
+        {/* це шлях */}
         <Route path="/signup">
           <SignupForm />
         </Route>

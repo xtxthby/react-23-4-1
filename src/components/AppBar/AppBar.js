@@ -5,6 +5,7 @@ import authContext from '../../contexts/auth/context.js';
 import styles from './Appbar.module.css';
 
 export default function Appbar() {
+  // тут передамо силку на useContext(authContext) та деструктуємо
   const { isLoggedIn, user, onLogIn, onLogOut } = useContext(authContext);
 
   return (
